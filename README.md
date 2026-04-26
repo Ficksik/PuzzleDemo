@@ -44,3 +44,6 @@ Assets/Scripts/
 * **Отмена действия** (Cancellation): Данный компонент не принимает токен отмены (CancellationToken) в Presenter. Необходимо дополнить параметр токена в метод Bind для очистки ресурсов при закрытии окна.
 * **Реальные сервисы**: Classes FakeWalletService, FakeAdsService, FakePuzzleStartService являются stubами и требуется их заменить на реальные сервисы, связь с сервером и игры.
 * **Обработка ошибок**: При получении ответа от диалогов нет событий
+
+![Image alt](https://github.com/Ficksik/PuzzleDemo/blob/main/Screenshot1.png)
+![Image alt](https://github.com/Ficksik/PuzzleDemo/blob/main/Screenshot2.png)
